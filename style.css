@@ -1,0 +1,223 @@
+.img-custom img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.bg-jumbotron {
+    background-image: linear-gradient(#4C5AD7, #797FD7, #4C5AD7);
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.col-md-3 .d-flex p {
+    font-size: 14px;
+}
+
+.navbar .container img {
+    width: 80px;
+}
+
+.section {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.bg-section {
+    background-color: #4C5AD7;
+    padding: 50px;
+}
+
+.card {
+    width: 18rem;
+    height: 20rem;
+    background-color: #414CB7;
+}
+
+.card-5 {
+    width: 18rem;
+    height: 20rem;
+    background-color: white;
+}
+
+.bg-jumbotron .p-4 button,
+.card .d-flex button,
+.collapse button,
+.card-5 .d-flex,
+.row .bg-white button {
+    background-color: #FDEC9C;
+    border: #FDEC9C;
+    font-size: 16px;
+}
+
+.card-profil {
+    background-color: #4C5AD7;
+}
+
+.card-profil img {
+    width: 18rem;
+    height: 25rem;
+}
+
+.card-testimoni {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    height: fit-content;
+}
+
+.layout-card {
+    margin-top: 120px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    right: -20px;
+    top: -20px;
+    background-color: rgba(208, 210, 249, 0.5);
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.bg-review {
+    background-color: #E1E3F8;
+    padding: 50px;
+}
+
+.layout-logo {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.layout-logo img {
+    width: 50%;
+    height: 50%;
+}
+
+.bg-footer {
+    background-color: #4C5AD7;
+    color: #ffff;
+    margin-top: 190px;
+}
+
+.col-md-2 .d-flex a {
+    margin-bottom: 10px;
+}
+
+.section-7 {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+#card-carousel {
+    transition: transform 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .fs-6 {
+        font-size: 12px;
+    }
+    .bg-jumbotron .p-4 button,
+    .card .d-flex button,
+    .collapse button,
+    .card-5 .d-flex button {
+        font-size: 12px;
+    }
+    .icon img {
+        width: 20px;
+        height: 20px;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+        right: -10px;
+        top: -10px;
+        background-color: rgba(208, 210, 249, 0.5);
+    }
+    .section-7 {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        transform: translateY(-50%);
+    }
+    .card {
+        width: auto;
+        height: 15rem;
+        padding: 14px;
+    }
+    .card-5 {
+        height: 12rem;
+        background-color: white;
+        padding: 20px;
+    }
+    #cards {
+        gap: 20px;
+    }
+    #card-paket {
+        display: 0 0 auto;
+        width: 50%;
+    }
+    #card-testimoni {
+        gap: 20px;
+        overflow: hidden;
+    }
+    .col-sm-6 {
+        display: 0 0 auto;
+        width: 50%;
+    }
+    #card-pilih {
+        gap: 14px;
+    }
+    .section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .layout-logo img {
+        width: 100%;
+        height: 100%;
+    }
+    .bg-white {
+        padding: 20px;
+    }
+    .bg-white button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .section-7 {
+        margin-top: 50px;
+    }
+    .container .row .col-md-2 {
+        margin: 25px 0 0 0;
+        display: 0 0 auto;
+        width: 50%;
+    }
+    .card-profil img {
+        width: 16rem;
+        height: 20rem;
+    }
+}
